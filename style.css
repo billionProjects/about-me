@@ -1,0 +1,153 @@
+.first-scr {
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.first-text {
+    text-align: right;
+}
+
+.LA img {
+    height: 20vh;
+    margin-bottom: 30vh;
+}
+
+.myIcon {
+    height:200px;
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color:black;
+    text-align: center;
+}
+
+
+.second-scr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30vh;
+}
+
+.programmer img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.second-text p{
+    width:80vh;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    margin:0px;
+}
+
+h3 {
+    margin:30px;
+}
+
+.skills {
+    display:inline-flex;
+    padding:20px;
+}
+
+.skills div {
+    padding: 20px;
+    margin: 10px;
+}
+
+.HTML {
+    background-color:#1D5D9B;
+}
+
+.CSS {
+    background-color:#F4D160;
+}
+
+.JSON {
+    background-color: #FBEEAC;
+}
+
+.Kafka {
+    background-color: #1D5D9B;
+}
+
+.Postman {
+    background-color:#F4D160 ;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin:0 50px;
+    gap:50px;
+}
+
+.project img {
+    width:250px;
+}
+
+.project {
+    padding:20px;
+}
+
+.third-scr {
+    margin-bottom: 30vh;
+}
+
+.linkedin-img {
+    height: 25px;
+}
+
+.contacts {
+    background-color: #F4D160;
+    padding:30px
+}
+
+.third-scr p {
+    text-align: justify;
+}
+
+@media (max-width:1065px) 
+{
+    .projects {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .LA img {
+        height: 20vh;
+        margin-bottom: 30vh;
+        object-fit: cover;
+    }
+
+    .first-scr {
+        display:flex;
+        gap:50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+}
+
+@media (max-width:1500px) 
+{   .LA img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
